@@ -103,25 +103,27 @@
         </table>
 
             <h2>Cat Form</h2>
-        
+            <form>
+                <fieldset>
+                    <legend><label>Is your cat an indoor or outdoor cat?</label><br></legend>
+                    <input type="radio" name="cat-type" id="indoor" checked>
+                    <label for="indoor">Indoor</label>
+                    <input type="radio" name="cat-type" id="outdoor">
+                    <label for="outdoor">Outdoor</label><br>
+                </fieldset>
 
-                <label>Is your cat an indoor or outdoor cat?</label><br>
-                <input type="radio" name="cat-type" id="indoor" checked>
-                <label for="indoor">Indoor</label>
-                <input type="radio" name="cat-type" id="outdoor">
-                <label for="outdoor">Outdoor</label><br>
-        
-                <label>What's your cat's personality?</label><br>
-                <input type="checkbox" id="loving" checked>
-                <label for="loving">Loving</label>
-                <input type="checkbox" id="lazy">
-                <label for="lazy">Lazy</label>
-                <input type="checkbox" id="energetic">
-                <label for="energetic">Energetic</label><br>
-
+                <fieldset>
+                    <legend><label>What's your cat's personality?</label><br></legend>
+                    <input type="checkbox" id="loving" checked>
+                    <label for="loving">Loving</label>
+                    <input type="checkbox" id="lazy">
+                    <label for="lazy">Lazy</label>
+                    <input type="checkbox" id="energetic">
+                    <label for="energetic">Energetic</label>
+                </fieldset><br>
                 <input type="text" placeholder="cat photo URL">
                 <button type="submit">Submit</button><br>
-
+            </form>
                 No Copyright - <a href="https://portal.rikkei.edu.vn/"><b>rikkei.edu.vn</b></a>
     </body>
 </html>
